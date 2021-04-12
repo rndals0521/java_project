@@ -51,7 +51,7 @@ public class Ex03_main {
 			Ex03 s1 = (Ex03) it.next();
 			System.out.println("이름 : " + s1.getName() + " 가격 : " + s1.getPrice());
 		}
-
+		
 		// 포함 여부 : contains
 		if(h1.contains(coffee)) {
 			System.out.println("있다.");
